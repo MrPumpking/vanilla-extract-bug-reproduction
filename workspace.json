@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "vanilla-demo": "apps/vanilla-demo",
+    "vanilla-demo-e2e": "apps/vanilla-demo-e2e"
+  }
+}
