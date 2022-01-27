@@ -9,7 +9,7 @@ To run:
 
 ```
 npm install
-npm run nx serve
+npm run start
 ```
 
 This project was generated using [Nx](https://nx.dev).
