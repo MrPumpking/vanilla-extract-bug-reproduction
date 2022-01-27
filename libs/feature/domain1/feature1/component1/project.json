@@ -1,0 +1,25 @@
+{
+  "root": "libs/feature/domain1/feature1/component1",
+  "sourceRoot": "libs/feature/domain1/feature1/component1/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/feature/domain1/feature1/component1/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/feature/domain1/feature1/component1"],
+      "options": {
+        "jestConfig": "libs/feature/domain1/feature1/component1/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

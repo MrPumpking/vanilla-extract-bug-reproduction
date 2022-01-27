@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "feature-domain1-feature1-component1": "libs/feature/domain1/feature1/component1",
+    "ui-theme": "libs/ui/theme",
     "vanilla-demo": "apps/vanilla-demo",
     "vanilla-demo-e2e": "apps/vanilla-demo-e2e"
   }
